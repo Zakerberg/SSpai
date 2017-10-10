@@ -10,6 +10,7 @@ PODS:
   - FTIndicator/FTToastIndicator (1.2.1)
   - Kingfisher (3.10.3)
   - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
   - SnapKit (3.2.0)
   - SwiftyJSON (3.1.4)
 
@@ -19,6 +20,7 @@ DEPENDENCIES:
   - FTIndicator
   - Kingfisher
   - MJExtension
+  - MJRefresh
   - SnapKit
   - SwiftyJSON
 
@@ -28,9 +30,10 @@ SPEC CHECKSUMS:
   FTIndicator: ef45ca730742b721657e65f56779bdf2b2c0a922
   Kingfisher: a0ac82dc5bcf0388dd74b294cf2cc13730c63436
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 312ca7d67082bcf1759e07a99b324907de24dae2
+PODFILE CHECKSUM: a56434f9a62209e9c05f59779e1ba9c47afa4a3f
 
 COCOAPODS: 1.1.1

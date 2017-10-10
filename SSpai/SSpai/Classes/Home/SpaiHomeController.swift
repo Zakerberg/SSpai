@@ -7,10 +7,15 @@
 //
 
 import UIKit
+import MJRefresh
 
-class SpaiHomeController: SpaiViewController {
+class SpaiHomeController: SpaiViewController,UITableViewDelegate {
     
-    var backScrollerView = UIScrollView()
+    var backScrollerView = UIScrollView() // 页面容器scrollerView
+    var newsData = NSMutableArray()      // 新闻数据
+    var newsTableView = UITableView()   // 页面内容table
+    var adsData = NSMutableArray()     // 广告数据
+    var paiNewsData = NSMutableArray()// 付费内容数据
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,9 +48,14 @@ class SpaiHomeController: SpaiViewController {
         self.view.insertSubview(backScrollerView, at: 0)
         self.backScrollerView = backScrollerView
         
-        
-        
-        
+        // 初始化首页内容tableView
+        let news: UITableView = UITableView(frame: UIScreen.main.bounds)
+        news.delegate = self
+        news.backgroundColor = UIColor.white
+        news.contentInset = UIEdgeInsetsMake(130, 0, 0, 0)
+        self.backScrollerView.addSubview(news)
+        news.separatorStyle = .none
+        self.newsTableView = news
         
     }
     
