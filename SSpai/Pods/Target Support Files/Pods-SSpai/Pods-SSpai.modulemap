@@ -1,0 +1,6 @@
+framework module Pods_SSpai {
+  umbrella header "Pods-SSpai-umbrella.h"
+
+  export *
+  module * { export * }
+}
