@@ -10,6 +10,8 @@ import UIKit
 
 class SpaiHomeController: SpaiViewController {
     
+    var backScrollerView = UIScrollView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
@@ -34,7 +36,12 @@ class SpaiHomeController: SpaiViewController {
         
         //初始化LoadingView
         let loadingViewFrame: CGRect = CGRect(x: 0, y: 130, width: SCREENW, height: SCREENH - 130)
+        SpaiLoadingView.showLoadingViewToView(view: self.view, frame: loadingViewFrame)
         
+        // 初始化背景scrollerView
+        let backScrollerView: UIScrollView = UIScrollView(frame: UIScreen.main.bounds)
+        self.view.insertSubview(backScrollerView, at: 0)
+        self.backScrollerView = backScrollerView
         
         
         
