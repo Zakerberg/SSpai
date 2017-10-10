@@ -7,7 +7,7 @@ target 'SSpai' do
 
 pod 'FTIndicator'
 pod 'Kingfisher'
-#pod 'SwiftJson'
+pod 'SwiftyJSON'
 pod 'MJExtension'
 pod 'DZNEmptyDataSet'
 pod 'Alamofire'
