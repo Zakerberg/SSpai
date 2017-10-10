@@ -151,9 +151,9 @@ open class AnimatedImageView: UIImageView {
     }
 
     // This is for back compatibility that using regular UIImageView to show animated image.
-    override func shouldPreloadAllAnimation() -> Bool {
-        return false
-    }
+  //  override func shouldPreloadAllAnimation() -> Bool {
+   //     return false
+  //  }
 
     // MARK: - Private method
     /// Reset the animator.
@@ -373,10 +373,10 @@ private func pure<T>(_ value: T) -> [T] {
 }
 
 // MARK: - Deprecated. Only for back compatibility.
-extension AnimatedImageView {
+//extension AnimatedImageView {
     // This is for back compatibility that using regular UIImageView to show GIF.
-    @available(*, deprecated, renamed: "shouldPreloadAllAnimation")
-    override func shouldPreloadAllGIF() -> Bool {
-        return false
-    }
-}
+//    @available(*, deprecated, renamed: "shouldPreloadAllAnimation")
+//    override func shouldPreloadAllGIF() -> Bool {
+//        return false
+//    }
+//}
