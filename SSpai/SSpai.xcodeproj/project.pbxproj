@@ -19,6 +19,8 @@
 		45BD3E9D1F8C9C12009C1B07 /* SpaiMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3E9C1F8C9C12009C1B07 /* SpaiMessageController.swift */; };
 		45BD3E9F1F8C9C20009C1B07 /* SpaiMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3E9E1F8C9C20009C1B07 /* SpaiMineController.swift */; };
 		45BD3EA11F8C9C3D009C1B07 /* SpaiFoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3EA01F8C9C3D009C1B07 /* SpaiFoundController.swift */; };
+		45BD3EA31F8CA65F009C1B07 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3EA21F8CA65F009C1B07 /* Common.swift */; };
+		45BD3EA61F8CA88A009C1B07 /* SpaiLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3EA51F8CA88A009C1B07 /* SpaiLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		45BD3E9C1F8C9C12009C1B07 /* SpaiMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiMessageController.swift; sourceTree = "<group>"; };
 		45BD3E9E1F8C9C20009C1B07 /* SpaiMineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiMineController.swift; sourceTree = "<group>"; };
 		45BD3EA01F8C9C3D009C1B07 /* SpaiFoundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiFoundController.swift; sourceTree = "<group>"; };
+		45BD3EA21F8CA65F009C1B07 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		45BD3EA51F8CA88A009C1B07 /* SpaiLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiLoadingView.swift; sourceTree = "<group>"; };
 		9092AC0B64E882F11F497D4E /* Pods-SSpai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSpai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSpai/Pods-SSpai.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +120,7 @@
 		45BD3E8D1F8B7D12009C1B07 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				45BD3EA21F8CA65F009C1B07 /* Common.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				45BD3E941F8B7D77009C1B07 /* SpaiTabBarController.swift */,
 				45BD3E961F8B813A009C1B07 /* SpaiNavController.swift */,
 				45BD3E981F8C9B79009C1B07 /* SpaiViewController.swift */,
+				45BD3EA41F8CA874009C1B07 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -167,6 +173,14 @@
 				45BD3E9E1F8C9C20009C1B07 /* SpaiMineController.swift */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		45BD3EA41F8CA874009C1B07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45BD3EA51F8CA88A009C1B07 /* SpaiLoadingView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		841EFA48277C0D6294F5AD25 /* Pods */ = {
@@ -303,11 +317,13 @@
 				45BD3E971F8B813A009C1B07 /* SpaiNavController.swift in Sources */,
 				45BD3E991F8C9B79009C1B07 /* SpaiViewController.swift in Sources */,
 				45BD3E951F8B7D77009C1B07 /* SpaiTabBarController.swift in Sources */,
+				45BD3EA61F8CA88A009C1B07 /* SpaiLoadingView.swift in Sources */,
 				45BD3E7C1F8B7BBA009C1B07 /* ViewController.swift in Sources */,
 				45BD3E9D1F8C9C12009C1B07 /* SpaiMessageController.swift in Sources */,
 				45BD3E9F1F8C9C20009C1B07 /* SpaiMineController.swift in Sources */,
 				45BD3E7A1F8B7BBA009C1B07 /* AppDelegate.swift in Sources */,
 				45BD3EA11F8C9C3D009C1B07 /* SpaiFoundController.swift in Sources */,
+				45BD3EA31F8CA65F009C1B07 /* Common.swift in Sources */,
 				45BD3E9B1F8C9C02009C1B07 /* SpaiHomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
