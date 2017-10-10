@@ -56,7 +56,22 @@ class SpaiHomeController: SpaiViewController,UITableViewDelegate {
         self.backScrollerView.addSubview(news)
         news.separatorStyle = .none
         self.newsTableView = news
+     
+        let refreshHeader : MJRefreshHeader = MJRefreshHeader(refreshingTarget: self, refreshingAction: #selector(dropDownToRefresh))
         
     }
     
+    
+    // MARK: - Click
+    @objc func dropDownToRefresh() {
+        
+        let nowNews: NSMutableArray = self.newsData
+        
+        // 下来刷新的时候,将refresh
+        
+        
+        
+        
+        
+    }
 }
