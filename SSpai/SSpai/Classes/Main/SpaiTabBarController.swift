@@ -12,7 +12,6 @@ class SpaiTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         setupTabbar()
     }
 
@@ -22,6 +21,13 @@ class SpaiTabBarController: UITabBarController {
     }
 
     func setupTabbar() {
+        
+        self.tabBar.isTranslucent = false
+        
+        
+        
+        
+        
         
     }
     

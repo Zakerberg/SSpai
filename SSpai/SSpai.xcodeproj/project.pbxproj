@@ -13,6 +13,11 @@
 		45BD3E841F8B7BBA009C1B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BD3E821F8B7BBA009C1B07 /* LaunchScreen.storyboard */; };
 		45BD3E951F8B7D77009C1B07 /* SpaiTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3E941F8B7D77009C1B07 /* SpaiTabBarController.swift */; };
 		45BD3E971F8B813A009C1B07 /* SpaiNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3E961F8B813A009C1B07 /* SpaiNavController.swift */; };
+		45BD3E991F8C9B79009C1B07 /* SpaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3E981F8C9B79009C1B07 /* SpaiViewController.swift */; };
+		45BD3E9B1F8C9C02009C1B07 /* SpaiHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3E9A1F8C9C02009C1B07 /* SpaiHomeController.swift */; };
+		45BD3E9D1F8C9C12009C1B07 /* SpaiMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3E9C1F8C9C12009C1B07 /* SpaiMessageController.swift */; };
+		45BD3E9F1F8C9C20009C1B07 /* SpaiMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3E9E1F8C9C20009C1B07 /* SpaiMineController.swift */; };
+		45BD3EA11F8C9C3D009C1B07 /* SpaiFoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3EA01F8C9C3D009C1B07 /* SpaiFoundController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		45BD3E851F8B7BBA009C1B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45BD3E941F8B7D77009C1B07 /* SpaiTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiTabBarController.swift; sourceTree = "<group>"; };
 		45BD3E961F8B813A009C1B07 /* SpaiNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiNavController.swift; sourceTree = "<group>"; };
+		45BD3E981F8C9B79009C1B07 /* SpaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiViewController.swift; sourceTree = "<group>"; };
+		45BD3E9A1F8C9C02009C1B07 /* SpaiHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiHomeController.swift; sourceTree = "<group>"; };
+		45BD3E9C1F8C9C12009C1B07 /* SpaiMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiMessageController.swift; sourceTree = "<group>"; };
+		45BD3E9E1F8C9C20009C1B07 /* SpaiMineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiMineController.swift; sourceTree = "<group>"; };
+		45BD3EA01F8C9C3D009C1B07 /* SpaiFoundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiFoundController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,7 @@
 		45BD3E8E1F8B7D12009C1B07 /* Found */ = {
 			isa = PBXGroup;
 			children = (
+				45BD3EA01F8C9C3D009C1B07 /* SpaiFoundController.swift */,
 			);
 			path = Found;
 			sourceTree = "<group>";
@@ -105,6 +116,7 @@
 		45BD3E8F1F8B7D12009C1B07 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				45BD3E9A1F8C9C02009C1B07 /* SpaiHomeController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -121,6 +133,7 @@
 			children = (
 				45BD3E941F8B7D77009C1B07 /* SpaiTabBarController.swift */,
 				45BD3E961F8B813A009C1B07 /* SpaiNavController.swift */,
+				45BD3E981F8C9B79009C1B07 /* SpaiViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -128,6 +141,7 @@
 		45BD3E921F8B7D12009C1B07 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				45BD3E9C1F8C9C12009C1B07 /* SpaiMessageController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -135,6 +149,7 @@
 		45BD3E931F8B7D12009C1B07 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				45BD3E9E1F8C9C20009C1B07 /* SpaiMineController.swift */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -211,9 +226,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				45BD3E971F8B813A009C1B07 /* SpaiNavController.swift in Sources */,
+				45BD3E991F8C9B79009C1B07 /* SpaiViewController.swift in Sources */,
 				45BD3E951F8B7D77009C1B07 /* SpaiTabBarController.swift in Sources */,
 				45BD3E7C1F8B7BBA009C1B07 /* ViewController.swift in Sources */,
+				45BD3E9D1F8C9C12009C1B07 /* SpaiMessageController.swift in Sources */,
+				45BD3E9F1F8C9C20009C1B07 /* SpaiMineController.swift in Sources */,
 				45BD3E7A1F8B7BBA009C1B07 /* AppDelegate.swift in Sources */,
+				45BD3EA11F8C9C3D009C1B07 /* SpaiFoundController.swift in Sources */,
+				45BD3E9B1F8C9C02009C1B07 /* SpaiHomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
