@@ -21,6 +21,7 @@
 		45BD3EA11F8C9C3D009C1B07 /* SpaiFoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3EA01F8C9C3D009C1B07 /* SpaiFoundController.swift */; };
 		45BD3EA31F8CA65F009C1B07 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3EA21F8CA65F009C1B07 /* Common.swift */; };
 		45BD3EA61F8CA88A009C1B07 /* SpaiLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3EA51F8CA88A009C1B07 /* SpaiLoadingView.swift */; };
+		45BD3EA81F8CD097009C1B07 /* SpaiHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3EA71F8CD097009C1B07 /* SpaiHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		45BD3EA01F8C9C3D009C1B07 /* SpaiFoundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiFoundController.swift; sourceTree = "<group>"; };
 		45BD3EA21F8CA65F009C1B07 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		45BD3EA51F8CA88A009C1B07 /* SpaiLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiLoadingView.swift; sourceTree = "<group>"; };
+		45BD3EA71F8CD097009C1B07 /* SpaiHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaiHeaderView.swift; sourceTree = "<group>"; };
 		9092AC0B64E882F11F497D4E /* Pods-SSpai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSpai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSpai/Pods-SSpai.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				45BD3EA51F8CA88A009C1B07 /* SpaiLoadingView.swift */,
+				45BD3EA71F8CD097009C1B07 /* SpaiHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BD3EA81F8CD097009C1B07 /* SpaiHeaderView.swift in Sources */,
 				45BD3E971F8B813A009C1B07 /* SpaiNavController.swift in Sources */,
 				45BD3E991F8C9B79009C1B07 /* SpaiViewController.swift in Sources */,
 				45BD3E951F8B7D77009C1B07 /* SpaiTabBarController.swift in Sources */,

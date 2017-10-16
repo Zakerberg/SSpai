@@ -11,11 +11,11 @@ import MJRefresh
 
 class SpaiHomeController: SpaiViewController,UITableViewDelegate {
     
-    var backScrollerView = UIScrollView() // 页面容器scrollerView
-    var newsData = NSMutableArray()      // 新闻数据
-    var newsTableView = UITableView()   // 页面内容table
-    var adsData = NSMutableArray()     // 广告数据
-    var paiNewsData = NSMutableArray()// 付费内容数据
+    var backScrollerView = UIScrollView()  // 页面容器scrollerView
+    var newsData = NSMutableArray()       // 新闻数据
+    var newsTableView = UITableView()    // 页面内容table
+    var adsData = NSMutableArray()      // 广告数据
+    var paiNewsData = NSMutableArray() // 付费内容数据
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,16 +58,22 @@ class SpaiHomeController: SpaiViewController,UITableViewDelegate {
         self.newsTableView = news
      
         let refreshHeader : MJRefreshHeader = MJRefreshHeader(refreshingTarget: self, refreshingAction: #selector(dropDownToRefresh))
+        self.backScrollerView.mj_header = refreshHeader
+        
+        //初始化头部导航栏
+        
+        
+        
+        
         
     }
-    
     
     // MARK: - Click
     @objc func dropDownToRefresh() {
         
         let nowNews: NSMutableArray = self.newsData
         
-        // 下来刷新的时候,将refresh
+        // 下来刷新的时候,将refresh文件里面的数据添加到目前数据的前面
         
         
         
