@@ -25,7 +25,6 @@ class SpaiLoadingView: UIView {
         }
         return false
     }
-    
     //为传入view显示一个loadingView
     class func showLoadingViewToView(view: UIView, frame: CGRect) -> Bool {
         
@@ -36,7 +35,7 @@ class SpaiLoadingView: UIView {
         indicator.startAnimating()
         loadingView.addSubview(indicator)
         view.addSubview(loadingView)
-        
+
         return true
     }
 }
