@@ -74,10 +74,5 @@ class SpaiHomeController: SpaiViewController,UITableViewDelegate {
         let nowNews: NSMutableArray = self.newsData
         
         // 下来刷新的时候,将refresh文件里面的数据添加到目前数据的前面
-        
-        
-        
-        
-        
     }
 }
