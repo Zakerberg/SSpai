@@ -9,8 +9,9 @@ pod 'FTIndicator'
 pod 'Kingfisher'
 pod 'SwiftyJSON'
 pod 'MJExtension'
-pod 'DZNEmptyDataSet'
+#pod 'DZNEmptyDataSet'
 pod 'Alamofire'
 pod 'SnapKit'
 pod 'MJRefresh'
+
 end
